@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "outcontainer/{name}",
+      "connection": "carlossardofabe31_STORAGE"
+    },
+    {
+      "type": "table",
+      "name": "outputTable",
+      "tableName": "ImageText",
+      "connection": "carlossardofabe31_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
