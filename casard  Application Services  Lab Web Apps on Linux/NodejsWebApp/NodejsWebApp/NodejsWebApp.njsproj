@@ -29,6 +29,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="server.js" />
+    <Content Include="AzureConfig001.png" />
+    <Content Include="AzureConfig002.png" />
+    <Content Include="AzureConfig003.png" />
     <Content Include="process.json" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config" />
